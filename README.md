@@ -11,22 +11,22 @@ A Discord bot for administering a Minecraft server from Discord – starting wit
 Planned features:
 
 - [ ] Request-based whitelist management
-  - [ ] Users can request to be whitelisted via a Discord command
-  - [ ] UUID lookup & validation via `playerdb.co`
-  - [ ] Requester confirmation of the found player
-  - [ ] Approver review (approve / deny with optional reason)
-  - [ ] Feedback messages to the requester
+  - [ ] Users can request to be whitelisted via a Discord command ([Issue #2](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/2))
+  - [ ] UUID lookup & validation via `playerdb.co` ([Issue #3](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/3))
+  - [ ] Requester confirmation of the found player ([Issue #3](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/3))
+  - [ ] Approver review (approve / deny with optional reason) ([Issue #4](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/4))
+  - [ ] Feedback messages to the requester ([Issue #6](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/6))
 
-- [ ] Temporary vs permanent whitelist
+- [ ] Temporary vs permanent whitelist ([Issue #5](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/5))
   - [ ] Temporary add (runtime only)
   - [ ] Permanent add (update server config / compose + handle restart)
 
-- [ ] Server admin actions (future)
+- [ ] Server admin actions (future) ([Issue #8](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/8))
   - [ ] Grant/remove operator (`/op` / `/deop`)
   - [ ] Server status (online/players)
   - [ ] Safe restart / maintenance commands
 
-- [ ] Role-/permission-based access control in Discord
+- [ ] Role-/permission-based access control in Discord ([Issue #6](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/6))
 
 ---
 
@@ -200,10 +200,11 @@ they help to quickly see *what kind* of change a commit introduces.
 ## Roadmap (Draft)
 
 - [ ] Define technology stack (language, Discord library, etc.)
-- [ ] Implement basic bot connection & health check command
-- [ ] Implement end-to-end whitelist request & approval flow
-- [ ] Implement temp vs permanent whitelist handling
-- [ ] Add admin commands (`/op`, `/deop`, status)
+- [ ] Implement basic bot connection & health check command ([Issue #1](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/1))
+- [ ] Implement end-to-end whitelist request & approval flow ([Issue #2](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/2))
+- [ ] Implement UUID lookup and check ([Issue #3](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/3))
+- [ ] Implement temp vs permanent whitelist handling ([Issue #5](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/5))
+- [ ] Add admin commands (`/op`, `/deop`, status) ([Issue #8](https://github.com/c0b26445-2a5a-45d6-aa77-4e35877b3ca6/mc-server-admin-bot/issues/8))
 - [ ] Improve configuration and logging
 - [ ] Document deployment steps for production
 
